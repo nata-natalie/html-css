@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 57px;
+  padding-right: 57px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.title-info {
+  margin-top: 48px;
+  margin-bottom: 80px;
+}
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  line-height: 59px;
+}
+
+.position {
+  color: #ff3232;
+}
+
+.birth-info {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 15px;
+}
+
+.quality-container {
+  margin-top: 48px;
+  line-height: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 20px;
+}
+
+.list {
+  font-size: 14px;
+}
+
+.list-item {
+  margin-left: 13px;
+}
+
+.aside {
+  width: 310px;
+  background-color: #1a142d;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 67px;
+}
+
+.photo {
+  width: 100%;
+  border: 1px solid #fff;
+}
+
+.main {
+  width: 467px;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 87px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.gallery-item {
+  position: relative;
+  width: 206px;
+  margin-right: 20px;
+}
+
+.gallery-label {
+  display: none;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #1a1420;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15.6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.gallery-item:hover .gallery-label {
+  display: block;
+}
+
+.social-icon:hover {
+  position: relative;
+  bottom: 10px;
+}
